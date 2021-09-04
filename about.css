@@ -1,0 +1,209 @@
+body {
+    background-color: #c31432;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card-box1 {
+    top: 20px;
+    background: none;
+    border: none;
+    color: white;
+    width: 35rem;
+    text-align: center;
+    margin: auto;
+    transition: 0.6s;
+    word-wrap: normal;
+    cursor: context-menu;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 30px;
+    box-shadow: -1px -2px 0px rgb(255 255 255 / 23%);
+}
+
+.card-box1:hover {
+    border-radius: 30px;
+    box-shadow: 1px 1px 24px rgba(255, 255, 255, 0.156);
+    background: rgba(0, 0, 0, 0.197);
+}
+
+.card-box2 {
+    top: 40px;
+    width: 35rem;
+    text-align: center;
+    margin: auto;
+    transition: 0.3s;
+    word-wrap: normal;
+    background: none;
+    border: none;
+    color: white;
+    cursor: context-menu;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 30px;
+    box-shadow: 1px 2px 0px rgba(255, 255, 255, 0.231);
+}
+
+.card-box2:hover {
+    border-radius: 30px;
+    box-shadow: 1px 1px 24px rgba(255, 255, 255, 0.156);
+    background: rgba(0, 0, 0, 0.197);
+}
+
+.card-box3 {
+    top: 60px;
+    width: 35rem;
+    text-align: center;
+    margin: auto;
+    transition: 0.3s;
+    word-wrap: normal;
+    background: none;
+    border: none;
+    color: white;
+    cursor: context-menu;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 30px;
+    box-shadow: -1px -2px 0px rgb(255 255 255 / 23%);
+}
+
+.card-box3:hover {
+    border-radius: 30px;
+    box-shadow: 1px 1px 24px rgba(255, 255, 255, 0.156);
+    background: rgba(0, 0, 0, 0.197);
+}
+
+.card-box4 {
+    top: 80px;
+    width: 35rem;
+    text-align: center;
+    margin: auto;
+    transition: 0.3s;
+    word-wrap: normal;
+    background: none;
+    border: none;
+    color: white;
+    cursor: context-menu;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 30px;
+    box-shadow: 1px 2px 0px rgba(255, 255, 255, 0.231);
+}
+
+.card-box1 .card-text,
+.card-box2 .card-text,
+.card-box3 .card-text,
+.card-box4 .card-text {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-box4:hover {
+    border-radius: 30px;
+    box-shadow: 1px 1px 24px rgb(165, 165, 165);
+    background-color: rgb(236, 236, 236);
+    box-shadow: 1px 1px 24px rgba(255, 255, 255, 0.156);
+    background: rgba(0, 0, 0, 0.197);
+}
+
+
+/* Footer bg */
+
+footer {
+    position: relative;
+    top: 100px;
+    color: white;
+}
+
+.footer-head {
+    font-family: 'Cinzel', serif;
+    font-size: 160%;
+    padding: 0;
+    margin: 0;
+    text-shadow: 0px 0px 3px white;
+}
+
+.head {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.3rem;
+}
+
+.link-secondary {
+    color: rgb(124, 129, 133);
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-secondary:hover {
+    text-decoration: underline;
+    color: rgb(90, 97, 105);
+}
+
+
+/* Icons */
+
+footer a {
+    text-decoration: none;
+}
+
+.icon-style1 {
+    font-size: larger;
+    position: relative;
+    bottom: 7px;
+    transition: .5s;
+    color: white;
+}
+
+.icon-style1:hover {
+    color: #0f70f0;
+    transform: rotateX(360deg);
+}
+
+.icon-style2 {
+    font-size: larger;
+    position: relative;
+    bottom: 7px;
+    transition: .5s;
+    color: white;
+}
+
+.icon-style2:hover {
+    color: #1c99e6;
+    transform: rotateX(360deg);
+}
+
+.icon-style3 {
+    font-size: larger;
+    position: relative;
+    bottom: 7px;
+    transition: .5s;
+    color: white;
+}
+
+.icon-style3:hover {
+    color: #c92f80;
+    transform: rotateX(360deg);
+}
+
+.icon-style4 {
+    font-size: larger;
+    position: relative;
+    bottom: 7px;
+    transition: .5s;
+    color: white;
+}
+
+.icon-style4:hover {
+    color: #de001a;
+    transform: rotateX(360deg);
+}
+
+@media screen and (max-width:570px) {
+    .card-box1,
+    .card-box2,
+    .card-box3,
+    .card-box4 {
+        width: auto;
+        font-size: small;
+    }
+}

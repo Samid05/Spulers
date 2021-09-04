@@ -1,0 +1,250 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Navbar: Dropdown */
+
+.genres-style {
+    color: white;
+    text-align: center;
+    font-size: 143%;
+    letter-spacing: 0.5pt;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.dropdown-menu {
+    background: #c31432;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9835df, #c31432);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6d1ca7, #c31432);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.genres-style2 {
+    color: white;
+    text-align: center;
+    font-size: 128%;
+    letter-spacing: 0.5pt;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.genres-style3 {
+    color: white;
+    text-align: center;
+    font-size: 119%;
+    letter-spacing: 0.5pt;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.dropdown-item {
+    color: white;
+    font-style: oblique;
+}
+
+.dropdown-item:hover {
+    font-style: normal;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+/* Navbar: Logo Name */
+
+.web-name {
+    font-family: 'Cinzel', serif;
+    font-size: 154%;
+    text-shadow: 0px 0px 3px white;
+}
+
+
+/* Navbar: Background */
+
+.nav-bg {
+    background: #c31432;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* Navbar: Links Hover */
+
+.link-color:hover {
+    text-shadow: -2px 0px 4px white;
+}
+
+.active {
+    text-shadow: 1px 0px 8px rgb(228, 228, 228);
+}
+
+
+/* Navbar: Search Box & Button */
+
+.search-box::placeholder {
+    color: white;
+}
+
+.search-box:focus {
+    background-color: rgba(255, 255, 255, 0.088);
+    border: 2px solid white;
+    box-shadow: none;
+    border: 2px solid white;
+}
+
+.search-box {
+    background-color: rgba(255, 255, 255, 0.088);
+    border: 2px solid white;
+}
+
+.btn {
+    color: white;
+    border: 2px solid white;
+    transition-property: all;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.149);
+    border: 2px solid white;
+    transition-duration: .4s;
+}
+
+
+/* Carousel: Image */
+
+.carousel-item {
+    height: 500px;
+    background-color: #240b36;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+}
+
+
+/* Carousel: Heading and Paragraph */
+
+.img1-head {
+    text-shadow: none;
+    background-color: black;
+    display: inline;
+    position: relative;
+    top: 20px;
+    opacity: 0.6;
+}
+
+.movie1-para {
+    text-shadow: none;
+    background-color: black;
+    opacity: 0.7;
+    position: relative;
+    top: 20px;
+}
+
+.img2-head {
+    text-shadow: none;
+    background-color: black;
+    opacity: 0.7;
+    display: inline;
+    position: relative;
+    top: 20px;
+}
+
+.movie2-para {
+    text-shadow: none;
+    background-color: black;
+    opacity: 0.8;
+    position: relative;
+    top: 20px;
+}
+
+.img3-head {
+    text-shadow: none;
+    background-color: black;
+    display: inline;
+    opacity: 0.7;
+    position: relative;
+    top: 20px;
+}
+
+.movie3-para {
+    text-shadow: none;
+    background-color: black;
+    opacity: 0.8;
+    position: relative;
+    top: 20px;
+}
+
+
+/* Carousel: Button */
+
+.btn-wn {
+    border-style: solid;
+    background-color: rgb(255, 44, 44);
+    border: 1px solid black;
+    opacity: 0.8;
+    position: relative;
+    top: 5px;
+    transition-property: all;
+}
+
+.btn-wn:hover {
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    opacity: 1;
+    background-color: rgb(255, 44, 44);
+    width: 17%;
+}
+
+.btn-sfl {
+    border-style: solid;
+    background-color: #137a54;
+    border: 1px solid black;
+    opacity: 0.8;
+    transition-property: all;
+    position: relative;
+    top: 5px;
+}
+
+.btn-sfl:hover {
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    opacity: 1;
+    background-color: #0b5137;
+    width: 19%;
+}
+
+.icon-style1,
+.icon-style2,
+.icon-style3,
+.icon-style4 {
+    color: white;
+}
+
+@media screen and (min-width:1200px) {
+    .carousel-item {
+        height: 700px;
+        background-color: #240b36;
+    }
+    .carousel-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .dropdown-item {
+        text-align: center;
+    }
+}

@@ -1,0 +1,185 @@
+.newsletter-section {
+    background: #c31432;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 3vh;
+}
+
+.newsletter-head {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.enter-email {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 0 10px 10px 10px;
+}
+
+.email-space {
+    display: inline;
+    width: 90vw;
+    font-family: 'Raleway', sans-serif;
+    background: none;
+    border: 1px solid white;
+}
+
+.email-space::placeholder {
+    color: white;
+}
+
+.email-space:focus {
+    background-color: rgba(255, 255, 255, 0.075);
+    box-shadow: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-subscribe {
+    border-style: solid;
+    width: 90vw;
+    height: auto;
+    background: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border: 1px solid white;
+    margin-top: 10px;
+    transition: .4s;
+}
+
+.btn-subscribe:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+    letter-spacing: 5px;
+    font-weight: normal;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-subscribe :focus {
+    box-shadow: none;
+    border: 1px solid white;
+}
+
+
+/* Footer bg */
+
+.container-footer {
+    position: relative;
+    padding-left: 4%;
+    top: -4vh;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+footer {
+    position: relative;
+    bottom: 10px;
+    background: #c31432;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.footer-head {
+    font-family: 'Cinzel', serif;
+    font-size: 160%;
+    padding: 0;
+    margin: 0;
+    text-shadow: 0px 0px 3px white;
+}
+
+.head {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.3rem;
+}
+
+.link-secondary {
+    color: rgb(124, 129, 133);
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-secondary:hover {
+    text-decoration: underline;
+    color: rgb(90, 97, 105);
+}
+
+
+/* Icons */
+
+.icon-style1 {
+    font-size: larger;
+    position: relative;
+    bottom: 7px;
+    transition: .5s;
+}
+
+.icon-style1:hover {
+    color: #0f70f0;
+    transform: rotateX(360deg);
+}
+
+.icon-style2 {
+    font-size: larger;
+    position: relative;
+    bottom: 7px;
+    transition: .5s;
+}
+
+.icon-style2:hover {
+    color: #1c99e6;
+    transform: rotateX(360deg);
+}
+
+.icon-style3 {
+    font-size: larger;
+    position: relative;
+    bottom: 7px;
+    transition: .5s;
+}
+
+.icon-style3:hover {
+    color: #c92f80;
+    transform: rotateX(360deg);
+}
+
+.icon-style4 {
+    font-size: larger;
+    position: relative;
+    bottom: 7px;
+    transition: .5s;
+}
+
+.icon-style4:hover {
+    color: #de001a;
+    transform: rotateX(360deg);
+}
+
+@media screen and (max-width:760px) {
+    .enter-email {
+        font-size: small;
+    }
+    .col-12 {
+        padding-bottom: 1%;
+    }
+}
